@@ -9,7 +9,6 @@ interface IProps {
 }
 
 const ViewArea: React.FC<IProps> = ({ isAcitive, isBehind, children }) => {
-
   const [isShow, setShow] = useState(false)
   const [isBgShow, setBgShow] = useState(false)
   const [isBgMotion, setBgMotion] = useState(false)
